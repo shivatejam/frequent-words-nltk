@@ -223,7 +223,6 @@ def main(argv):
     # parse_arguments from command line
 
     args = parse_args(argv)
-    print args
 
     # Read and convert text from PDF to a Unicode string
 
