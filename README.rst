@@ -51,7 +51,8 @@ Usage
 
     import frequent_words_nltk 
     
-    text = convert_pdf_txt(<infile>, <password>, <pages>) # Read and convert text from a PDF document to a Unicode string
+    # Read and convert text from a PDF document to a Unicode string.
+    text = convert_pdf_txt(<infile>, <password>, <pages>) 
     
     # clean Unicode string to get keywords using power of NLTK.
     # Uses stopwords for english from NLTK, and all puntuation characters.
