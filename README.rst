@@ -9,7 +9,7 @@ Setup
  * Download the source code.
  * Unpack it.
  * cd frequent-words-nltk-master
- * Run `frequent-words-nltk.py`:
+ * Run `frequent_words_nltk.py`:
  
  .. code:: bash
 
@@ -51,7 +51,7 @@ Usage
 
     import frequent_words_nltk 
     
-    text = convert(<infile>, <password>, <pages>) # Read and convert text from a PDF document to a Unicode string
+    text = convert_pdf_txt(<infile>, <password>, <pages>) # Read and convert text from a PDF document to a Unicode string
     
     # clean Unicode string to get keywords using power of NLTK.
     # Uses stopwords for english from NLTK, and all puntuation characters.
@@ -69,19 +69,19 @@ frequent-words-nltk comes with handy tool:
 
 .. code:: bash
 
-    $ python frequent-words-nltk.py --help
+    $ python frequent_words_nltk.py --help
      
 To display 10 most frequent words  
 
 .. code:: bash
 
-    $ python frequent-words-nltk.py pdf-example-password.pdf -P test -n 10 
+    $ python frequent_words_nltk.py pdf-example-password.pdf -P test -n 10 
 
 To get 10 most frequent words of dictionary as JSON 
     
 .. code:: bash
 
-    $ python frequent-words-nltk.py pdf-example-password.pdf -P test -n 10 -o data
+    $ python frequent_words_nltk.py pdf-example-password.pdf -P test -n 10 -o data
     
 To Read data back
 
