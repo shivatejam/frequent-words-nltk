@@ -49,7 +49,8 @@ Usage
 
 .. code:: python
 
-    import frequent_words_nltk 
+    # Import all the three functions from the module frequent_words_nltk
+    from frequent_words_nltk import convert_pdf_txt, textminer, most_frequent_words
     
     # Read and convert text from a PDF document to a Unicode string.
     text = convert_pdf_txt(<infile>, <password>, <pages>) 
